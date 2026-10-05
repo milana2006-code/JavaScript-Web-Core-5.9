@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Barlow";
+    src: url(./Barlow/Barlow-Regular.ttf);
+}
+body {
+    font-family: "Barlow";
+    background-color: #EFF6FF;
+}
+.subtitle{
+    font-weight:400;
+    font-size: 20px;
+    color: #96A5B1;
+}
+.container {
+    background-color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    margin: 80px 60px 80px 60px;
+}
+.content {
+    width: 50%;
+   margin-right: 200px;
+}
+.image {
+    position: relative;
+    width: 50%;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+}
+h2 {
+    color: #2A4A5C;
+     font-size: 30px;
+    margin-top: 70px;
+    font-weight: 500;
+}
+.facebook {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+   background-color: #255A9B;
+   color: #FFFFFF;
+   border: #255A9B;
+}
+.facebook img {
+    width: 20px;
+    height: 20px;
+    padding-right: 70px;
+}
+.linkedin {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #0076B6;
+    color: #FFFFFF;
+    border: #0076B6;
+}
+.linkedin img {
+    width: 20px;
+    height: 20px;
+    padding-right: 70px;
+
+}
+.buttons {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+}
+.or {
+ margin: 40px 265px;
+}
+form {
+    display: flex;
+    gap: 35px;
+}
+#email {
+     width: 180px;
+    height: 30px;
+    border-style: hidden;
+}
+input {
+    border: none;
+    outline: none;
+}
+fieldset {
+    border: 1px solid #EEEEEE;
+    width: 230px
+}
+.fieldset {
+    border-left: 1px solid #3698FB;
+}
+#phone {
+    width: 180px;
+    height: 30px;
+    border-style: hidden; 
+}
+.Email {
+    display: flex;
+    color: #AFAFAF;
+    align-items: flex-start;
+    flex-direction: column;
+    
+   
+}
+.Phone {
+    color: #AFAFAF;
+}
+.type {
+color: #2A4A5C;
+font-size: 25px;
+margin-top: 50px;
+}
+.select {
+    font-size: 17px;
+    color: #96A5B1;
+    margin-bottom: 50px;
+}
+.radio button {
+    border-style: none;
+    background-color: #FFFFFF;
+    color: #AFAFAF;
+}
+.radio {
+    display: flex;
+    gap: 15px;
+}
+.radio label {
+    color: black;
+}
+.hint1 {
+    display: inline-block;
+    background-color: #f7f7f7;
+    color: #AFAFAF;
+   width: 290px;
+   margin-top: 20px;
+   padding: 10px;
+}
+.agree {
+    color: #96A5B1;
+}
+#agreement {
+    color: #96A5B1;
+}
+.account {
+    width: 250px;
+    height: 40px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background-color: #3698FB;
+    border-style: hidden;
+    border-radius: 5px;
+    margin-top: 50px;
+}
