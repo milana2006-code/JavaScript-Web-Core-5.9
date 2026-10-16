@@ -24,11 +24,8 @@ body {
     box-sizing: border-box;
 }
 .image {
-    position: relative;
-    width: 50%;
-    flex-shrink: 0;
+position: relative;
 }
-
 .image img:first-child {
     display: block;
     width: 100%;
