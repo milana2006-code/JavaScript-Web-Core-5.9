@@ -83,7 +83,7 @@ h2 {
 .or {
  margin: 40px 265px;
 }
-form {
+.forms {
     display: flex;
     gap: 35px;
 }
